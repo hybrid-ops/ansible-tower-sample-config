@@ -1,0 +1,8 @@
+apiVersion: securityenforcement.admission.cloud.ibm.com/v1beta1
+kind: ClusterImagePolicy
+metadata:
+  name: towertest 
+  namespace: tower 
+spec:
+   repositories:
+    - name: docker.io/nginx* 
